@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2018-04-06 21:04:22.
+    * Generated on 2018-04-26 13:51:20.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -26,7 +26,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -139,6 +139,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
@@ -160,7 +162,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -273,6 +275,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
@@ -294,7 +298,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -407,6 +411,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
@@ -428,7 +434,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -541,6 +547,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
@@ -562,7 +570,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -675,6 +683,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
@@ -696,7 +706,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -809,6 +819,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
@@ -830,7 +842,7 @@ namespace PHPSTORM_META {
         'cookie' => \Illuminate\Cookie\CookieJar::class,
         'db.factory' => \Illuminate\Database\Connectors\ConnectionFactory::class,
         'db' => \Illuminate\Database\DatabaseManager::class,
-        'db.connection' => \Illuminate\Database\MySqlConnection::class,
+        'db.connection' => \Illuminate\Database\SQLiteConnection::class,
         'Illuminate\Contracts\Queue\EntityResolver' => \Illuminate\Database\Eloquent\QueueEntityResolver::class,
         'encrypter' => \Illuminate\Encryption\Encrypter::class,
         'files' => \Illuminate\Filesystem\Filesystem::class,
@@ -943,6 +955,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.ide-helper.eloquent' => \Barryvdh\LaravelIdeHelper\Console\EloquentCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
     ]));
