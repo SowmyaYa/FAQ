@@ -73,6 +73,7 @@
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('log-viewer::dashboard') }}">Log viewer</a>
                     @endauth
                 </div>
             @endif
