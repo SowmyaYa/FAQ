@@ -104,4 +104,10 @@ class AnswerController extends Controller
         $answer->delete();
         return redirect()->route('questions.show',['question_id' => $question])->with('message', 'Delete');
     }
+    public function valid($question,$answer)
+    {
+        //$answer = Answer::find($answer);
+        //$answer->save();
+        return redirect()->route('answers.show',['question_id' => $question, 'answer_id' => $answer])->with('message', 'Answer is marked correct');
+    }
 }

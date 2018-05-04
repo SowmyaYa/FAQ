@@ -17,6 +17,10 @@
                         <a class="btn btn-primary float-right" href="{{ route('answers.edit',['question_id'=> $question, 'answer_id'=> $answer->id, ])}}">
                             Edit Answer
                         </a>
+                        <a class="btn btn-primary float-right" href="{{ route('answers.valid',['question_id'=> $question, 'answer_id'=> $answer->id, ])}}">
+                            Correct
+                        </a>
+
                     </div>
                 </div>
 
