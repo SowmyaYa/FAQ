@@ -110,4 +110,10 @@ class AnswerController extends Controller
         //$answer->save();
         return redirect()->route('answers.show',['question_id' => $question, 'answer_id' => $answer])->with('message', 'Answer is marked correct');
     }
+    /*public function wrong($question,$answer)
+    {
+        //$answer = Answer::find($answer);
+        //$answer->save();
+        return redirect()->route('answers.show',['question_id' => $question, 'answer_id' => $answer])->with('message', 'Wrong answer');
+    }*/
 }

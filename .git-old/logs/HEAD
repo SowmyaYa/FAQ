@@ -1,0 +1,58 @@
+0000000000000000000000000000000000000000 5d498655f87095c706c501c09d73d83a2f6bf986 sowmya <sy379@njit.edu> 1522987390 -0400	clone: from https://github.com/SowmyaYa/FAQ.git
+5d498655f87095c706c501c09d73d83a2f6bf986 460a17c000c49651db071d05cadfca3940f2e363 sowmya <sy379@njit.edu> 1523050022 -0400	commit: Initial laravel setup
+460a17c000c49651db071d05cadfca3940f2e363 460a17c000c49651db071d05cadfca3940f2e363 sowmya <sy379@njit.edu> 1523054063 -0400	checkout: moving from master to userProfile
+460a17c000c49651db071d05cadfca3940f2e363 ade229bda35373d453e5da8379852f6b18799805 sowmya <sy379@njit.edu> 1523054917 -0400	commit: Removed username from default laravel auth make.
+ade229bda35373d453e5da8379852f6b18799805 6338b12783ecbf1fd091ee29f2db8e706b5bdd6f sowmya <sy379@njit.edu> 1523055511 -0400	commit: Created users table seeder.
+6338b12783ecbf1fd091ee29f2db8e706b5bdd6f cd5f47ef4461fd78a41a20cad50a26a82907d708 sowmya <sy379@njit.edu> 1523059721 -0400	commit: Added user profile migrate, model and updated the user seeder to create profiles.
+cd5f47ef4461fd78a41a20cad50a26a82907d708 5ebbc077f4c0803f84c4bda68e5f512dc1fee723 sowmya <sy379@njit.edu> 1523060506 -0400	commit: Added user profile migrate, model and updated the user seeder to create profiles.
+5ebbc077f4c0803f84c4bda68e5f512dc1fee723 460a17c000c49651db071d05cadfca3940f2e363 sowmya <sy379@njit.edu> 1523060751 -0400	checkout: moving from userProfile to master
+460a17c000c49651db071d05cadfca3940f2e363 5ebbc077f4c0803f84c4bda68e5f512dc1fee723 sowmya <sy379@njit.edu> 1523060800 -0400	merge userProfile: Fast-forward
+5ebbc077f4c0803f84c4bda68e5f512dc1fee723 5ebbc077f4c0803f84c4bda68e5f512dc1fee723 sowmya <sy379@njit.edu> 1523061046 -0400	checkout: moving from master to question
+5ebbc077f4c0803f84c4bda68e5f512dc1fee723 5e236e2cc0367f81b89607ce8aff8d43c16f0e62 sowmya <sy379@njit.edu> 1523063537 -0400	commit: Added Question profile migrate, model and made the user seeder and test for questions and user profile.
+5e236e2cc0367f81b89607ce8aff8d43c16f0e62 5ebbc077f4c0803f84c4bda68e5f512dc1fee723 sowmya <sy379@njit.edu> 1523063671 -0400	checkout: moving from question to master
+5ebbc077f4c0803f84c4bda68e5f512dc1fee723 5e236e2cc0367f81b89607ce8aff8d43c16f0e62 sowmya <sy379@njit.edu> 1523063724 -0400	merge question: Fast-forward
+5e236e2cc0367f81b89607ce8aff8d43c16f0e62 5e236e2cc0367f81b89607ce8aff8d43c16f0e62 sowmya <sy379@njit.edu> 1523064154 -0400	checkout: moving from master to answer
+5e236e2cc0367f81b89607ce8aff8d43c16f0e62 39dffb0b8fb7530b68b6d68b2bdc2954651fc128 sowmya <sy379@njit.edu> 1523067637 -0400	commit: Added Answer profile migrate, model and made the answer seeder and test for answer and user profile.
+39dffb0b8fb7530b68b6d68b2bdc2954651fc128 5e236e2cc0367f81b89607ce8aff8d43c16f0e62 sowmya <sy379@njit.edu> 1523067710 -0400	checkout: moving from answer to master
+5e236e2cc0367f81b89607ce8aff8d43c16f0e62 39dffb0b8fb7530b68b6d68b2bdc2954651fc128 sowmya <sy379@njit.edu> 1523067743 -0400	merge answer: Fast-forward
+39dffb0b8fb7530b68b6d68b2bdc2954651fc128 0f4467fab96fd499f699e52412aef33514d38041 sowmya <sy379@njit.edu> 1523068249 -0400	commit: Added Answer profile migrate, model and made the answer seeder and test for answer and user profile.
+0f4467fab96fd499f699e52412aef33514d38041 6ed4739a73bbd7f75e3f8e6faeadb7d8801e5121 sowmya <sy379@njit.edu> 1523069131 -0400	commit: Procfile for Heroku
+6ed4739a73bbd7f75e3f8e6faeadb7d8801e5121 6ed4739a73bbd7f75e3f8e6faeadb7d8801e5121 sowmya <sy379@njit.edu> 1523943648 -0400	checkout: moving from master to Homepage
+6ed4739a73bbd7f75e3f8e6faeadb7d8801e5121 bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1523944633 -0400	commit: Added list of questions on homepage and a pager
+bf92bdc69536e1b194e4ceb908981297b6a98d92 6ed4739a73bbd7f75e3f8e6faeadb7d8801e5121 sowmya <sy379@njit.edu> 1523944712 -0400	checkout: moving from Homepage to master
+6ed4739a73bbd7f75e3f8e6faeadb7d8801e5121 bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1523944764 -0400	merge Homepage: Fast-forward
+bf92bdc69536e1b194e4ceb908981297b6a98d92 bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1523944820 -0400	checkout: moving from master to Profile
+bf92bdc69536e1b194e4ceb908981297b6a98d92 3191a715a2634de5b15cb4631c5bfbbead4f0dac sowmya <sy379@njit.edu> 1523945384 -0400	commit: Fixed: Branding link to correctly direct the logged in user to their homepage.
+3191a715a2634de5b15cb4631c5bfbbead4f0dac 3b0c6d0932b42dc6ce1b66acfbc0117ffe80fc13 sowmya <sy379@njit.edu> 1523948105 -0400	commit: Fixed MyProfile
+3b0c6d0932b42dc6ce1b66acfbc0117ffe80fc13 bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1523948127 -0400	checkout: moving from Profile to master
+bf92bdc69536e1b194e4ceb908981297b6a98d92 3b0c6d0932b42dc6ce1b66acfbc0117ffe80fc13 sowmya <sy379@njit.edu> 1523948209 -0400	checkout: moving from master to Profile
+3b0c6d0932b42dc6ce1b66acfbc0117ffe80fc13 d5b841211ac19f13d281254ff81772d9d7603e9d sowmya <sy379@njit.edu> 1524168047 -0400	commit: View Question and answers is done.
+d5b841211ac19f13d281254ff81772d9d7603e9d bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1524168139 -0400	checkout: moving from Profile to master
+bf92bdc69536e1b194e4ceb908981297b6a98d92 d5b841211ac19f13d281254ff81772d9d7603e9d sowmya <sy379@njit.edu> 1524168191 -0400	checkout: moving from master to Profile
+d5b841211ac19f13d281254ff81772d9d7603e9d bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1524169401 -0400	checkout: moving from Profile to master
+bf92bdc69536e1b194e4ceb908981297b6a98d92 d5b841211ac19f13d281254ff81772d9d7603e9d sowmya <sy379@njit.edu> 1524169430 -0400	checkout: moving from master to Profile
+d5b841211ac19f13d281254ff81772d9d7603e9d bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1524189850 -0400	checkout: moving from Profile to master
+bf92bdc69536e1b194e4ceb908981297b6a98d92 d5b841211ac19f13d281254ff81772d9d7603e9d sowmya <sy379@njit.edu> 1524190500 -0400	merge Profile: Fast-forward
+d5b841211ac19f13d281254ff81772d9d7603e9d bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1524190856 -0400	checkout: moving from master to Homepage
+bf92bdc69536e1b194e4ceb908981297b6a98d92 d5b841211ac19f13d281254ff81772d9d7603e9d sowmya <sy379@njit.edu> 1524190875 -0400	checkout: moving from Homepage to master
+d5b841211ac19f13d281254ff81772d9d7603e9d 084e609717d966194ed82a146c2e09009bd59cee sowmya <sy379@njit.edu> 1524195010 -0400	commit: Laravel auth setup for heroku
+084e609717d966194ed82a146c2e09009bd59cee f789e1709951a73e5a10a49efc0ae94ed706a48a sowmya <sy379@njit.edu> 1524282223 -0400	commit: Laravel auth setup for heroku
+f789e1709951a73e5a10a49efc0ae94ed706a48a ed5f1bfeb7eb30c189b4681baab0bd1efc617d03 sowmya <sy379@njit.edu> 1524283967 -0400	commit: Laravel auth setup for heroku
+ed5f1bfeb7eb30c189b4681baab0bd1efc617d03 7c9e4b37a5cfe83f8f35fed9b95b0428f77ecf0e sowmya <sy379@njit.edu> 1524286605 -0400	commit: Laravel auth setup for heroku
+7c9e4b37a5cfe83f8f35fed9b95b0428f77ecf0e f789e1709951a73e5a10a49efc0ae94ed706a48a sowmya <sy379@njit.edu> 1524332804 -0400	reset: moving to f789e1709951a73e5a10a49efc0ae94ed706a48a
+f789e1709951a73e5a10a49efc0ae94ed706a48a 084e609717d966194ed82a146c2e09009bd59cee sowmya <sy379@njit.edu> 1524332886 -0400	reset: moving to 084e609717d966194ed82a146c2e09009bd59cee
+084e609717d966194ed82a146c2e09009bd59cee f5b6b4d19c516622d43050d0fa8f94a9af1e8032 sowmya <sy379@njit.edu> 1524333691 -0400	commit: Laravel auth setup for heroku
+f5b6b4d19c516622d43050d0fa8f94a9af1e8032 f5b6b4d19c516622d43050d0fa8f94a9af1e8032 sowmya <sy379@njit.edu> 1524750013 -0400	checkout: moving from master to createProfile
+f5b6b4d19c516622d43050d0fa8f94a9af1e8032 2c00699f0cebe952cae10a70c4d56d1ac7c5e905 sowmya <sy379@njit.edu> 1524977498 -0400	commit: Adding, editing, deleting, updating answers and questions
+2c00699f0cebe952cae10a70c4d56d1ac7c5e905 f5b6b4d19c516622d43050d0fa8f94a9af1e8032 sowmya <sy379@njit.edu> 1524977593 -0400	checkout: moving from createProfile to master
+f5b6b4d19c516622d43050d0fa8f94a9af1e8032 2c00699f0cebe952cae10a70c4d56d1ac7c5e905 sowmya <sy379@njit.edu> 1524977623 -0400	merge createProfile: Fast-forward
+2c00699f0cebe952cae10a70c4d56d1ac7c5e905 08dce8976d5ba1b196b5b70df16c2508a6ba8124 sowmya <sy379@njit.edu> 1525228713 -0400	commit: Edited the welcome page.
+08dce8976d5ba1b196b5b70df16c2508a6ba8124 5f830a9da57e9a498d635a220ca9df0b6d13b641 sowmya <sy379@njit.edu> 1525374252 -0400	commit: Added error log viewer
+5f830a9da57e9a498d635a220ca9df0b6d13b641 5f830a9da57e9a498d635a220ca9df0b6d13b641 sowmya <sy379@njit.edu> 1525375125 -0400	checkout: moving from master to log
+5f830a9da57e9a498d635a220ca9df0b6d13b641 d4587b5c7d520b7e89bfa4e0baef9780a82a4f59 sowmya <sy379@njit.edu> 1525375172 -0400	commit: Added charts route to show error in the logviewer.
+d4587b5c7d520b7e89bfa4e0baef9780a82a4f59 5f830a9da57e9a498d635a220ca9df0b6d13b641 sowmya <sy379@njit.edu> 1525375349 -0400	checkout: moving from log to master
+5f830a9da57e9a498d635a220ca9df0b6d13b641 d4587b5c7d520b7e89bfa4e0baef9780a82a4f59 sowmya <sy379@njit.edu> 1525375361 -0400	merge log: Fast-forward
+d4587b5c7d520b7e89bfa4e0baef9780a82a4f59 3d5230bde41a64c0b7f64499f280c7d6e89baa7e sowmya <sy379@njit.edu> 1525379421 -0400	commit: Using errorlog
+3d5230bde41a64c0b7f64499f280c7d6e89baa7e 74f5e164594f16a747b3f61fb38acbc52b4ab0be sowmya <sy379@njit.edu> 1525410939 -0400	commit: Reduced the questions pagination to 3 per page
+74f5e164594f16a747b3f61fb38acbc52b4ab0be 47a5318893802ea17b81aa9891760aac9e1104f9 sowmya <sy379@njit.edu> 1525450861 -0400	commit: Trying a different storage path
+                                                                                                                                                                        

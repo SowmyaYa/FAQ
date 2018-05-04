@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 bf92bdc69536e1b194e4ceb908981297b6a98d92 sowmya <sy379@njit.edu> 1523944820 -0400	branch: Created from HEAD
+bf92bdc69536e1b194e4ceb908981297b6a98d92 3191a715a2634de5b15cb4631c5bfbbead4f0dac sowmya <sy379@njit.edu> 1523945384 -0400	commit: Fixed: Branding link to correctly direct the logged in user to their homepage.
+3191a715a2634de5b15cb4631c5bfbbead4f0dac 3b0c6d0932b42dc6ce1b66acfbc0117ffe80fc13 sowmya <sy379@njit.edu> 1523948105 -0400	commit: Fixed MyProfile
+3b0c6d0932b42dc6ce1b66acfbc0117ffe80fc13 d5b841211ac19f13d281254ff81772d9d7603e9d sowmya <sy379@njit.edu> 1524168047 -0400	commit: View Question and answers is done.

@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 460a17c000c49651db071d05cadfca3940f2e363 sowmya <sy379@njit.edu> 1523054063 -0400	branch: Created from HEAD
+460a17c000c49651db071d05cadfca3940f2e363 ade229bda35373d453e5da8379852f6b18799805 sowmya <sy379@njit.edu> 1523054917 -0400	commit: Removed username from default laravel auth make.
+ade229bda35373d453e5da8379852f6b18799805 6338b12783ecbf1fd091ee29f2db8e706b5bdd6f sowmya <sy379@njit.edu> 1523055511 -0400	commit: Created users table seeder.
+6338b12783ecbf1fd091ee29f2db8e706b5bdd6f cd5f47ef4461fd78a41a20cad50a26a82907d708 sowmya <sy379@njit.edu> 1523059721 -0400	commit: Added user profile migrate, model and updated the user seeder to create profiles.
+cd5f47ef4461fd78a41a20cad50a26a82907d708 5ebbc077f4c0803f84c4bda68e5f512dc1fee723 sowmya <sy379@njit.edu> 1523060506 -0400	commit: Added user profile migrate, model and updated the user seeder to create profiles.

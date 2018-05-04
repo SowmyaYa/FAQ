@@ -27,6 +27,7 @@ Route::post('/questions/{question_id}/answers/', 'AnswerController@store')->name
 Route::patch('/questions/{question_id}/answer/{answer_id}', 'AnswerController@update')->name('answers.update');
 Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@destroy')->name('answers.destroy');
 Route::get('/questions/{question_id}/answer/{answer_id}', 'AnswerController@valid')->name('answers.valid');
+//Route::get('/questions/{question_id}/answer/{answer_id}', 'AnswerController@wrong')->name('answers.wrong');
 Route::resources([
     'questions' => 'QuestionController',
 ]);
