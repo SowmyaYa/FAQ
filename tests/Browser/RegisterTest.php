@@ -19,5 +19,9 @@ class RegisterTest extends DuskTestCase
             $browser->visit('http://localhost:8000')
                 ->assertTitle('FAQ');
         });
+        $this->browse(function (Browser $browser) {
+            $browser->visit('http://localhost:8000')
+                ->assertSee('FAQ');
+        });
     }
 }
