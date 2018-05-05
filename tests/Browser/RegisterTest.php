@@ -31,7 +31,7 @@ class RegisterTest extends DuskTestCase
         $this->browse(function (Browser $browser) {
             $browser->visit('http://localhost:8000')
                 ->clickLink('Register')
-                ->value('#email', 'mjuvw1224231f@ujm.com')
+                ->value('#email', 'mjuvw12242dsfgjh31f@ujm.com')
                 ->value('#password', 'asdfghjkl')
                 ->value('#password-confirm', 'asdfghjkl')
                 ->click('button[type="submit"]')
