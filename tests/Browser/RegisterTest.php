@@ -28,6 +28,15 @@ class RegisterTest extends DuskTestCase
                 ->clickLink('Register')
                 ->assertSee('Register');
         });
+        $this->browse(function (Browser $browser) {
+            $browser->visit('http://localhost:8000')
+                ->clickLink('Register')
+                ->value('#email', 'mju@ujm.com')
+                ->value('#password', 'asdfghjkl')
+                ->value('#password-confirm', 'asdfghjkl')
+                ->click('button[type="submit"]')
+                ->assertSee('Questions');
+        });
 
     }
 }
